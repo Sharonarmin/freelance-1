@@ -612,7 +612,7 @@ p{
 /* footer */
 
 footer{
-    background-image: url("../images/ftr-image.png");
+    background-image: url("../images/ftr-image1.png");
     padding: 60px 10px 30px;
 }
 
@@ -687,6 +687,16 @@ footer{
     margin-top: 25px;
 }
 
+.sidebar-links-div .sidebar-links:hover{
+    color: var(--secondary-col);
+}
+
+.sidebar-links-div .sidebar-links.active{
+    color: var(--primary-col);
+    font-weight: 600;
+}
+
+
 .sidebar-sm{
     position: fixed;
     left: 100px;
@@ -699,28 +709,38 @@ footer{
     margin-right: 10px;
 }
 
-@media only screen and (max-width:999px){
-    .sidenav{
-        display: none;
-    }
-    .main{
-        margin-left: 0px;
-    }
-}
 
 
 
 /* banner */
 
 .banner{
-    background-image: url("../images/banner.jpg");
-    padding: 150px 10px;
+    background-image: url("../images/banners/banner-1.png");
+    padding: 130px 10px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
+.about-banner{
+    background-image: url("../images/banners/banner-1.png");
+}
+
+.contact-banner{
+    background-image: url("../images/banners/banner-2.png");
+}
+.project-banner{
+    background-image: url("../images/banners/banner-3.png"); 
+}
+
+.project-banner-1{
+    background-image: url("../images/banners/banner-4.png"); 
+}
+
+.service-banner{
+    background-image: url("../images/banners/banner-5.png"); 
+}
 
   .banner-head h4{
     font-style: normal;
@@ -729,7 +749,7 @@ footer{
     line-height: 50px;
     letter-spacing: 0.04em;
     text-align: center;
-    color: var(--black-col);
+    color: #ffffff;
   }
   
   .breadcrump-bg{
@@ -783,7 +803,7 @@ footer{
 
 
 .mission-vision-box{
-    background-image: url("../images/gallery/gallery-11.png");
+    background-image: url("../images/cta-banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 20px 10px;
@@ -815,7 +835,7 @@ footer{
     bottom: -200px;
     width: 160px;
     height: 160px;
-    background-color: #ffffff;
+    background-color: var(--primary-col);
     border-radius: 50%;
     z-index: 1;
     transition: .3s all ease-in-out;
@@ -1083,5 +1103,57 @@ footer{
         position: fixed;
         top: 90%;
         right: 25px;
+    }
+}
+
+
+/* mobile navbar */
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.hiraya-mob-navbar .nav-item .nav-link.active{
+    color: var(--primary-col);
+    font-weight: 600;
+}
+
+.hiraya-mob-navbar .nav-item .nav-link{
+    color: var(--secondary-col);
+    padding: 10px;
+}
+
+.navbar-toggler{
+    border-style: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("../images/menu.png");
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: none;
+}
+
+
+
+@media only screen and (min-width:999px){
+    .hiraya-mob-nav{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:999px){
+    .sidenav{
+        display: none;
+    }
+    .main{
+        margin-left: 0px;
     }
 }

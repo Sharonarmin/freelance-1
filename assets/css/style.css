@@ -614,6 +614,8 @@ p{
 footer{
     background-image: url("../images/ftr-image1.png");
     padding: 60px 10px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ftr-logo img{
@@ -1155,5 +1157,19 @@ footer{
     }
     .main{
         margin-left: 0px;
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    .aboutUs-details-section{
+        padding: 80px 10px 30px;
+    }
+    .testimonial-section{
+        padding: 30px 10px 30px;
+    }
+    .latest-projects-box{
+        margin: 5px;
     }
 }

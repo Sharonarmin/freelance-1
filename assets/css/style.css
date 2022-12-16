@@ -279,6 +279,8 @@ p{
     overflow: hidden;
     z-index: 10;
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .service-card-hover-bg{
@@ -646,10 +648,10 @@ footer{
 .ftr-sm a{
     color: var(--white-col);
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
-.ftr-sm a:hover{
+.ftr-sm a i:hover{
     font-size: 22px;
 }
 
@@ -703,5 +705,383 @@ footer{
     }
     .main{
         margin-left: 0px;
+    }
+}
+
+
+
+/* banner */
+
+.banner{
+    background-image: url("../images/banner.jpg");
+    padding: 150px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+  .banner-head h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--black-col);
+  }
+  
+  .breadcrump-bg{
+    object-fit: cover;
+  }
+  
+  .banner-links {
+    display: block;
+    text-align: center;
+  }
+  
+  .banner-links a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--bs-light);
+    padding: 0 5px;
+  }
+  
+  .banner-links .active {
+    color: var(--bs-red-main);
+  }
+  
+  .banner-links a:hover {
+    color: var(--bs-light);
+  }
+  
+
+  /* aboutUs-details-section */
+
+
+  .aboutUs-details-section{
+    padding: 100px 10px;
+  }
+
+  .about-section-heading h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  
+/* mission and vision section */
+
+.vision-mision-section{
+    padding: 50px 10px 80px;
+}
+
+
+.mission-vision-box{
+    background-image: url("../images/gallery/gallery-11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 20px 10px;
+    background-color: #001A64;
+    border-radius: 20px;
+    color: var(--black-col);
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    min-height: 240px;
+}
+
+
+
+
+.mission-vision-box h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.mission-vision-box p{
+    padding: 20px 0;
+}
+
+ .round-1{
+    position: absolute;
+    right: -200px;
+    bottom: -200px;
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 1;
+    transition: .3s all ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.round-1 img{
+    width: 60px;
+}
+
+.mission-vision-box:hover .round-1{
+    width: 120px;
+    height: 120px;
+    bottom: -40px;
+    right: -50px;
+}
+
+.core-values{
+    margin-top: 40px;
+}
+
+.core-values h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--primary-col);
+}
+
+
+.core-values ul{
+    font-size: 22px;
+    color: var(--secondary-col);
+}
+
+
+
+/*  */
+
+
+
+/* --------------------------------- contact section css start ---------------------------------- */
+.contact-section{
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 100px 10px;
+}
+.contact-section .left-box{
+    padding: 10px 50px;
+    position: relative;
+}
+.contact-section .dots{
+    position: absolute;
+    top: 20px;
+    opacity: 0.3;
+    left: -15px;
+}
+.contact-section .left-box .star{
+    position: absolute;
+    right: 40px;
+    opacity: 0.4;
+    bottom: -50px;
+}
+.contact-section .left-box span{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.contact-section .left-box h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: var(--head-font);
+}
+.contact-section .left-box input{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 1px solid rgb(143, 143, 143);
+    margin-bottom: 28px;
+    padding: 8px;
+    padding-top: 5px;
+}
+.contact-section .right-box{
+    background: var(--gray);
+    padding: 35px 60px;
+    box-shadow: var(--sm-shadow);
+    position: relative;
+}
+.contact-section .left-box .key{
+    position: absolute;
+    right: 15px;
+    opacity: 0.6;
+    top: 35px;
+}
+.contact-section .right-box h5{
+    font-synthesis: 25px;
+    font-family: var(--head-font);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.contact-section .right-box p{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.contact-section .right-box a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+.contact-section .right-box a::after{
+    content: '';
+    background: url('../img/right-top.png');
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    right: -20px;
+    top: 2px;
+}
+.contact-section .right-box .map{
+    font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+    .contact-section .left-box{
+        margin-top: 45px;
+        padding: 20px;
+    }
+    .contact-section .left-box .star{
+        top: 130px;
+        right: 0px;
+    }
+    .contact-section .left-box .btn-div{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .contact-section .right-box{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .contact-section .left-box h1{
+        font-size: 55px;
+    }
+    .contact-section .left-box{
+        padding: 10px;
+    }
+    .contact-section .right-box{
+        padding: 25px;
+    }
+}
+
+
+
+/* service-pg-section */
+
+.service-pg-section{
+    padding: 100px 10px;
+}
+
+
+
+
+/* project-card-section */
+
+.project-card-section{
+    padding: 100px 10px;
+    overflow-x: hidden;
+}
+
+.interior-slider-section{
+    padding: 100px 10px;
+}
+
+
+
+.interior-design-slider .owl-nav{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(50%, -50%);
+}
+
+
+
+.interior-design-slider .owl-nav button.owl-next{
+    position: absolute;
+    right: -38px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-col);
+    color: var(--white-col);
+}
+
+.interior-design-slider .owl-nav button.owl-prev{
+    position: absolute;
+    left: -38px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-col);
+    color: var(--white-col);
+}
+
+
+/* interior-project-details-section */
+
+.interior-project-details-section{
+    padding: 100px 10px;
+}
+
+.details-section-card{
+    padding: 30px 10px;
+    background-color: var(--primary-col);
+    color: var(--white-col);
+    padding: 30px 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 260px;
+    margin-bottom: 20px;
+}
+
+
+.details-section-card .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.details-section-card .head i{
+    font-size: 22px;
+    color: #000000;
+}
+
+.details-section-card .head span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+/* whatsapp */
+
+.fixed-whats-app{
+    position: fixed;
+    top: 90%;
+    right: 45px;
+    z-index: 999;
+  }
+  
+
+@media only screen and (max-width:767px){
+    .fixed-whats-app{
+        position: fixed;
+        top: 90%;
+        right: 25px;
     }
 }

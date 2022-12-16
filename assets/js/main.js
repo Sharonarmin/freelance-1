@@ -70,3 +70,30 @@ $(document).ready(function(){
       })
 });
 
+// interior slider 
+
+$(document).ready(function(){
+    $('.interior-design-slider').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:true,
+        dots:true,
+        autoplay:false,
+        navText: ["<i class='fa-solid fa-chevron-left'></i>", "<i class='fa-solid fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1300:{
+                items:1
+            },
+            1500:{
+                items:1
+            }
+        }
+      })
+});
+

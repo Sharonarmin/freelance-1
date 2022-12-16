@@ -1132,8 +1132,8 @@ footer{
 
 .navbar-light .navbar-toggler-icon{
     background-image: url("../images/menu.png");
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     background-size: contain;
     background-repeat: no-repeat;
     border-style: none;

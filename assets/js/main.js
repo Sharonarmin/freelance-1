@@ -97,3 +97,31 @@ $(document).ready(function(){
       })
 });
 
+
+// 3d slider 
+
+$(document).ready(function(){
+    $('.three-d-slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:true,
+        autoplay:false,
+        navText: ["<i class='fa-solid fa-chevron-left'></i>", "<i class='fa-solid fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1300:{
+                items:3
+            },
+            1500:{
+                items:3
+            }
+        }
+      })
+});
+

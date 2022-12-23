@@ -1253,3 +1253,48 @@ footer{
     background-color: var(--secondary-col);
 }
 
+
+
+/* css  masionary */
+
+  
+.masionary-container {
+    -moz-column-count: 1;
+         column-count: 1;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    -moz-column-fill: balance;
+         column-fill: balance;
+    margin: 20px auto 0;
+    padding: 2rem;
+  }
+  .masionary-container  .item {
+    display: inline-block;
+    margin: 0 0 20px;
+    page-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
+    width: 100%;
+  }
+  .masionary-container  .item img {
+    width: 100%;
+    height: auto;
+  }
+  @media (min-width: 600px) {
+    .masionary-container  {
+      -moz-column-count: 2;
+           column-count: 2;
+    }
+  }
+  @media (min-width: 900px) {
+    .masionary-container  {
+      -moz-column-count: 3;
+           column-count: 3;
+    }
+  }
+  @media (min-width: 1200px) {
+    .masionary-container  {
+      -moz-column-count: 4;
+           column-count: 4;
+    }
+  }

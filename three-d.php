@@ -23,65 +23,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- sidenav -->
-    <div class="sidenav">
-        <div class="sidebar-logo">
-            <img src="assets/images/logo/logo-sidebar.png" alt="">
-        </div>
 
-        <div class="sidebar-links-div">
-            <a href="index.html" class="sidebar-links">Home</a>
-            <a href="about.html" class="sidebar-links">About Us</a>
-            <a href="service.html" class="sidebar-links">Servces</a>
-            <a href="project.html" class="sidebar-links">Projects</a>
-            <a href="three-d.html" class="sidebar-links">3D Projects</a>
-            <a href="contact.html" class="sidebar-links">Contact Us</a>
-        </div>
 
-        <div class="sidebar-sm">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-    </div>
-
-        <!-- mobile navbar -->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light hiraya-mob-nav">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="assets/images/logo/ftr-logo.png" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav hiraya-mob-navbar me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="service.html">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="project.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="three-d.html.html">3D Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-    
-                </ul>
-              </div>
-            </div>
-          </nav>
-    
-        <!-- mobile navbar -->
+        <!-- header -->
+        <?php include 'inc/header.php';?>
+        <!-- header end -->
 
 
         <div class="main">
@@ -105,7 +51,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d1.jpg" alt="">
                                 </div>
@@ -113,12 +59,12 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d2.PNG" alt="">
                                 </div>
@@ -126,12 +72,12 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d3.jpeg" alt="">
                                 </div>
@@ -139,12 +85,12 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d4.jpg" alt="">
                                 </div>
@@ -152,12 +98,12 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d5.jpg" alt="">
                                 </div>
@@ -165,12 +111,12 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d6.PNG" alt="">
                                 </div>
@@ -178,12 +124,12 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-6">
                         <div class="three-card-item">
-                            <a href="three-d1.html">
+                            
                                 <div>
                                     <img class="img-fluid" src="assets/images/three-d/3d1.jpg" alt="">
                                 </div>
@@ -191,7 +137,7 @@
                                     <i class="fa-solid fa-house-chimney"></i>
                                     <span>Villa 304</span>
                                 </div>
-                            </a>
+                            
                         </div>
                     </div>
                 </div>
@@ -199,77 +145,15 @@
 
 
 
+    <!-- footer start -->
+    <?php include 'inc/footer.php';?>
+    <!-- footer end -->
 
-                    <!-- footer start -->
-
-        <footer>
-            <div class="container">
-                <div class="ftr-logo">
-                    <img src="/assets/images/logo/ftr-logo.png" alt="">
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <p class="ftr-desc">We specialize in creating beautiful spaces that feel lime home right all in accordance with our clients vision.</p>
-                        <div>
-                            <a href="#" class="ftr-link">
-                                <i class="fa-solid fa-location-dot"></i>
-                                Kozhikode, Kerala
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#" class="ftr-link">
-                                <i class="fa-solid fa-mobile-screen-button"></i>
-                                +91 8212765876
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#" class="ftr-link">
-                                <i class="fa-regular fa-envelope"></i>
-                                info@hirayabuilders.com
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-12">
-                        <div class="ftr-link-head">Quick Links</div>
-                            <a href="index.html"class="ftr-link">Home</a>
-                            <a href="about.html"class="ftr-link">About Us</a>
-                            <a href="service.html"class="ftr-link">Services</a>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-12">
-                        <div class="ftr-link-head">Quick Links</div>
-                        <a href="project.html"class="ftr-link">Projects</a>
-                        <a href="contact.html"class="ftr-link">Contact Us</a>
-
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-12">
-                        <div class="ftr-link-head">Connect With Us</div>
-                        <div class="ftr-sm">
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    
-        <!-- footer end -->
 
 
          </div>   
 
 
-
-
-
-
-        
-
-    <div class="fixed-whats-app">
-        <a href="https://wa.me/" target="_blank">
-        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_qnpfavmd.json" background="transparent" speed="1" style="width: 60px; height: 60px;" loop autoplay></lottie-player>
-        </a>
-    </div>
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
